@@ -1,0 +1,35 @@
+{
+    "name": "printi/sortable-relations",
+    "description": "An extension to allow relations to be sortable",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "authors": [
+        {
+            "name": "Printi",
+            "email": "tech@printi.com.br"
+        }
+    ],
+    "keywords": [
+        "relations", "sortable"
+    ],
+    "minimum-stability":"dev",
+    "prefer-stable":true,
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extensions\\Printi\\SortableRelations\\": "",
+            "Bolt\\Extensions\\Printi\\SortableRelations\\Tests\\": "tests"
+        }
+    },
+
+    "extra": {
+        "bolt-assets": "assets",
+        "bolt-screenshots": [
+            "screenshot.png"
+        ]
+    }
+}
